@@ -51,6 +51,13 @@
     Offline Cache: Store results locally for quick re-checking.
 
 9. Vector DB
+    Semantic Search: Retrieve previous AI responses or prompts based on meaning, not just keywords.
+    Prompt Embedding Storage: Save all prompts and responses as embeddings for quick similarity lookups.
+    Context Injection: Auto-fetch relevant past results and feed into current comparisons.
+    Cross-Model Memory: Let different models use the same stored vector data for context.
+    Filter & Tagging: Organize stored embeddings by model, domain, or performance score.
+    Hybrid Search: Combine vector similarity with keyword filters for precision.
+    API Access: Allow external tools to query stored vector data.
 
 Tech stack
 - react
