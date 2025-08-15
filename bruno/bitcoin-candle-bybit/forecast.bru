@@ -1,0 +1,19 @@
+meta {
+  name: forecast
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8001/forecast
+  body: none
+  auth: inherit
+}
+
+headers {
+  Content-Type: application/json
+}
+
+settings {
+  encodeUrl: true
+}

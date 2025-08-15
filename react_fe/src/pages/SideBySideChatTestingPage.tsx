@@ -19,8 +19,18 @@ import { Button } from "@/components/ui/button"
 import { aiModels } from "@/data/ai-models"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
+// import { useState } from "react"
+import { useChatbotContext } from "@/contexts/ChatbotContext"
 
 export default function SideBySideChatTestingPage(){
+    const { prompt, setPrompt } = useChatbotContext();
+    // const [prompt, setPrompt] = useState('')
+    const handleInput = (e: React.FormEvent<HTMLInputElement>) => setPrompt(e.currentTarget.value);
+    const handleSubmit = async (e: React.FormEvent) => {
+        e.preventDefault();
+        alert(prompt);
+    }
+
     return(
         <>
             <NavigationMenu viewport={false} className="justify-start items-start mx-3 my-3">
@@ -48,8 +58,10 @@ export default function SideBySideChatTestingPage(){
                                 </div>
                             </div>
                             <div className="flex mt-2 gap-2">
-                                <Input placeholder="Type question ..."/>
-                            <Button className="">Send</Button>
+                                <Input onInput={handleInput} placeholder="Type question ..." />
+                                <form onClick={handleSubmit}>
+                                    <Button className="">Send</Button>
+                                </form>
                             </div>
                         </CardContent>
                     </Card>
@@ -58,7 +70,7 @@ export default function SideBySideChatTestingPage(){
                 <div className="grid grid-cols-3 gap-2">
                     {aiModels.map((model) => {
                         return(
-                            <Card className="w-md mx-5 my-2">
+                            <Card key={model.name} className="w-md mx-5 my-2">
                                 <CardHeader>
                                     <CardTitle>
                                         <Badge variant="secondary">

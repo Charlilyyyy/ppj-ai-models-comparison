@@ -1,0 +1,6 @@
+uvicorn
+fastapi
+email-validator
+mcp
+openai
+python-dotenv

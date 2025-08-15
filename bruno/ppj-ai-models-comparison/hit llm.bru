@@ -1,0 +1,22 @@
+meta {
+  name: hit llm
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8000/api/v1/llm
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "prompt": "book flight to london on 20/9/2025"
+  }
+  
+}
+
+settings {
+  encodeUrl: true
+}

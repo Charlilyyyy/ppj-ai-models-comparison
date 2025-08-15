@@ -80,7 +80,7 @@ export default function Home(){
             <NavigationMenuList className="flex-col items-start gap-2">
               {navmenus.map((nav) => {
                 return(
-                  <NavigationMenuItem className="w-full">
+                  <NavigationMenuItem key={nav.link} className="w-full">
                     <NavigationMenuLink asChild className={`${navigationMenuTriggerStyle()} w-full justify-start`}>
                       <Link to={nav.link}>{nav.linkName}</Link>
                     </NavigationMenuLink>
@@ -102,7 +102,7 @@ export default function Home(){
             <CardContent>
               {aiModels.map((model) => {
                 return(
-                  <Tooltip>
+                  <Tooltip key={model.name}>
                     <TooltipTrigger>
                       <Badge className="mx-1">{model.name}</Badge>
                     </TooltipTrigger>

@@ -1,0 +1,24 @@
+meta {
+  name: get data
+  type: http
+  seq: 1
+}
+
+get {
+  url: https://api.bybit.com/v5/market/kline?category=spot&symbol=BTCUSDT&interval=D&limit=1000&start=1609459200000&end=1640995200000
+  body: none
+  auth: inherit
+}
+
+params:query {
+  category: spot
+  symbol: BTCUSDT
+  interval: D
+  limit: 1000
+  start: 1609459200000
+  end: 1640995200000
+}
+
+settings {
+  encodeUrl: true
+}

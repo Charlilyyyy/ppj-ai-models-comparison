@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "bitcoin-candle-bybit",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

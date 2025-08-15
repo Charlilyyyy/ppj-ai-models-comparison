@@ -1,0 +1,62 @@
+{
+  "e99fb177bb284d99a35583550ec966a0": [
+    {
+      "role": "user",
+      "content": "book flight to london on 20/9/2025",
+      "created_at": 1755067040.07644
+    },
+    {
+      "role": "assistant",
+      "content": "I can help with that. A few details to get the best options:\n\n- Confirm date: do you mean 20 September 2025?\n- Departure city/airport?\n- One-way or round trip? If round trip, what return date?\n- Preferred London airport(s) (Heathrow, Gatwick, City, Stansted, Luton) or “any”?\n- How many travelers (adults/children/infants)?\n- Cabin class (economy/premium/business/first)?\n- Nonstop only or OK with connections?\n- Preferred time window and any airline/budget preferences?\n- Any checked baggage needed?\n\nShare these and I’ll pull the best flight options and walk you through booking.",
+      "created_at": 1755067055.417144
+    }
+  ],
+  "15962e1b8c2a45ceb48a80a8c01427a4": [
+    {
+      "role": "user",
+      "content": "book flight to london on 20/9/2025",
+      "created_at": 1755067073.834733
+    },
+    {
+      "role": "assistant",
+      "content": "Happy to help. To book a flight to London on 20 September 2025, I need a few details:\n\n- Departure city/airport\n- One-way or round trip? If round trip, return date\n- Preferred London airport(s): Heathrow (LHR), Gatwick (LGW), City (LCY), or any\n- Number of travelers (adults/children/infants)\n- Cabin class: economy, premium economy, business, first\n- Time preference on the 20th (morning/afternoon/evening) and direct flights only?\n- Checked baggage needed?\n- Airline/alliance preferences (e.g., OneWorld/SkyTeam/Star) or specific carriers\n- Budget range and flexibility (+/- 1–2 days okay?)\n\nOnce you share these, I’ll propose the best 3–5 flight options and a step-by-step booking plan. Also, please confirm the date format is 20 September 2025.",
+      "created_at": 1755067090.1971
+    }
+  ],
+  "db7d44c79be4456dae14615a4e9678c1": [
+    {
+      "role": "user",
+      "content": "book flight to london on 20/9/2025",
+      "created_at": 1755067107.354806
+    },
+    {
+      "role": "assistant",
+      "content": "I can help with that. A few details will let me find the best options and proceed:\n\n- Can you confirm the date format: do you mean 20 September 2025?\n- What city/airport are you flying from?\n- One-way or round trip? If round trip, what return date?\n- Preferred London airport(s) (Heathrow, Gatwick, City, Stansted, Luton), or any?\n- Preferred departure time window on that day?\n- How many passengers (adults/children/infants)?\n- Cabin class (economy, premium economy, business, first)?\n- Nonstop only or okay with connections?\n- Any airline preferences or loyalty programs?\n- Approximate budget?\n- Any baggage or seat preferences?\n\nShare these and I’ll pull up suitable flight options and next steps to book.",
+      "created_at": 1755067129.177658
+    }
+  ],
+  "05e3139a441d4c24975cf8b1ad6daf8b": [
+    {
+      "role": "user",
+      "content": "book flight to london on 20/9/2025",
+      "created_at": 1755067412.6141791
+    },
+    {
+      "role": "assistant",
+      "content": "Happy to help. To find the best options for a flight to London on 20 September 2025, please confirm/provide:\n\n- Departure city/airport\n- One-way or round-trip? If round-trip, desired return date\n- Number of travelers (adults, children, infants)\n- Cabin class (economy, premium economy, business, first)\n- Preferred departure time window on 20 Sep (morning/afternoon/evening) and flexibility (+/– days?)\n- London airport preference (Heathrow, Gatwick, Stansted, Luton, City, or “any”)\n- Nonstop only, or okay with 1+ stops?\n- Baggage needs (carry-on only, or at least 1 checked bag per person)\n- Airline preferences/alliances and rough budget range\n\nOnce I have these, I’ll pull suitable flight options for you.",
+      "created_at": 1755067433.054323
+    }
+  ],
+  "c8973003ca0c48e396e1f6295ceec134": [
+    {
+      "role": "user",
+      "content": "book flight to london on 20/9/2025",
+      "created_at": 1755067694.994112
+    },
+    {
+      "role": "assistant",
+      "content": "Happy to help. A few details to get this booked:\n\n- Confirm the date: do you mean 20 September 2025?\n- Where are you flying from (city/airport)?\n- One-way or round trip? If round trip, what return date?\n- How many passengers (adults/children/infants)?\n- Cabin class (economy, premium economy, business, first)?\n- Preferred time window on the 20th and are you okay with connections or prefer nonstop?\n- Any airline preferences or budget range?\n\nOnce I have this, I’ll pull flight options for you right away.",
+      "created_at": 1755067714.580099
+    }
+  ]
+}
